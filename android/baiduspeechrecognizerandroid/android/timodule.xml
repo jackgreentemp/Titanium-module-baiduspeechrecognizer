@@ -16,12 +16,9 @@
     		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     		
 			<application>
-				<meta-data android:name="com.baidu.speech.APP_ID" android:value="6846697"/>
-        		<meta-data android:name="com.baidu.speech.API_KEY" android:value="hiHzib0BCb7EjS1ZQ2my5K7r"/>
-        		<meta-data android:name="com.baidu.speech.SECRET_KEY" android:value="be5ef8d930857ceec1be7f74fa046a62"/>
-        		<!-- <meta-data android:name="com.baidu.speech.APP_ID" android:value="999999"/>
+        		<meta-data android:name="com.baidu.speech.APP_ID" android:value="999999"/>
         		<meta-data android:name="com.baidu.speech.API_KEY" android:value="8MAxI5o7VjKSZOKeBzS4XtxO"/>
-        		<meta-data android:name="com.baidu.speech.SECRET_KEY" android:value="Ge5GXVdGQpaxOmLzc8fOM8309ATCz9Ha"/> -->
+        		<meta-data android:name="com.baidu.speech.SECRET_KEY" android:value="Ge5GXVdGQpaxOmLzc8fOM8309ATCz9Ha"/>
         		<service android:name="com.baidu.speech.VoiceRecognitionService" android:exported="false" />
         		<activity
 	                android:name="com.baidu.voicerecognition.android.ui.BaiduASRDigitalDialog"
