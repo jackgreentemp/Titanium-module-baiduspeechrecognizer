@@ -1,0 +1,18 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name BaiduspeechrecognizerandroidBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "com.babyplan.baiduspeechrecognizer.ExampleProxy.h"
+#include "com.babyplan.baiduspeechrecognizer.BaiduspeechrecognizerandroidModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+com.babyplan.baiduspeechrecognizer.ExampleProxy, ::com::babyplan::baiduspeechrecognizer::baiduspeechrecognizerandroid::ExampleProxy::bindProxy, ::com::babyplan::baiduspeechrecognizer::baiduspeechrecognizerandroid::ExampleProxy::dispose
+com.babyplan.baiduspeechrecognizer.BaiduspeechrecognizerandroidModule, ::com::babyplan::baiduspeechrecognizer::BaiduspeechrecognizerandroidModule::bindProxy, ::com::babyplan::baiduspeechrecognizer::BaiduspeechrecognizerandroidModule::dispose
+%%

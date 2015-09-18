@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: baiduspeechrecognizerandroid
+author: jack.green
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: baiduspeechrecognizerandroid
+moduleid: com.babyplan.baiduspeechrecognizer
+guid: 255dc312-ce10-4356-b7a1-110e12195ddd
+platform: android
+minsdk: 3.5.1.GA
